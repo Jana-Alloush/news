@@ -1,0 +1,39 @@
+:root{
+    --main-color:rgb(55, 55, 253);
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid black;
+}
+footer .share{
+	padding:5rem 0;
+}
+footer .share a{
+	height: 2rem;
+	width: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+	color:black;
+	border:var(--border);
+	margin:.3rem;
+	border-radius: 30%;
+    text-decoration: none;
+}
+footer .share a:hover{
+	background-color: var(--main-color);
+}
+footer .links{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:2rem 0;
+	gap:1rem;
+}
+footer .links a{
+	padding:.7rem 2rem;
+	color:black;
+	border:var(--border);
+	font-size: 2rem;
+}
+footer .links a:hover{
+	background:var(--main-color);
+}
